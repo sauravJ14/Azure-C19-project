@@ -1,0 +1,9 @@
+{
+	"name": "covid-reports-ni-adf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e8a1dc87-a8ba-4425-9f91-d99dd79c687c",
+		"tenantId": "29d6b2c1-5a07-49dc-ad3b-a84fe545e6d9"
+	}
+}
