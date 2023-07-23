@@ -1,5 +1,5 @@
 {
-	"name": "pl_rocess_population-data",
+	"name": "pl_process_population-data",
 	"properties": {
 		"activities": [
 			{
@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/covid/transformed/transform_population_data"
+					"notebookPath": "/covid/transformed/transform"
 				},
 				"linkedServiceName": {
 					"referenceName": "ls_db_covid_cluster",
