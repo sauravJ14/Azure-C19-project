@@ -36,15 +36,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Confirmed cases",
-				"type": "String"
-			},
-			{
-				"name": "deaths",
-				"type": "String"
-			},
-			{
 				"name": "reported_date",
+				"type": "String"
+			},
+			{
+				"name": "hospital_occupancy_count",
+				"type": "String"
+			},
+			{
+				"name": "icu_occupancy_count",
 				"type": "String"
 			},
 			{
