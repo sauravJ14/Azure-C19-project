@@ -22,7 +22,7 @@
 			"sinks": [
 				{
 					"dataset": {
-						"referenceName": "ds_processed_cases_and_deaths",
+						"referenceName": "ds_processed_case_death",
 						"type": "DatasetReference"
 					},
 					"name": "CasesAndDeathSink"
@@ -109,6 +109,16 @@
 				"     skipDuplicateMapOutputs: true) ~> DeselectUnwantedData",
 				"DeselectUnwantedData sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
+				"     input(",
+				"          country as string,",
+				"          country_code_2_digit as string,",
+				"          country_code_3_digit as string,",
+				"          population as string,",
+				"          cases_count as string,",
+				"          deaths_count as string,",
+				"          reported_date as string,",
+				"          source as string",
+				"     ),",
 				"     partitionFileNames:['cases_death.csv'],",
 				"     truncate: true,",
 				"     umask: 0022,",
