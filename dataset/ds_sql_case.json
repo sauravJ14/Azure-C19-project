@@ -5,6 +5,9 @@
 			"referenceName": "ls_sql_coviddb",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "raw"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [

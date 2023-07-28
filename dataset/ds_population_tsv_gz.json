@@ -5,6 +5,9 @@
 			"referenceName": "linked_blob_covid_report",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "raw"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
