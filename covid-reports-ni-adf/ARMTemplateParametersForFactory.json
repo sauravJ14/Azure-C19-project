@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reports-ni-adf"
+		},
+		"linked_blob_covid_report_connectionString": {
+			"value": ""
+		},
+		"linked_dl_covidreport_accountKey": {
+			"value": ""
+		},
+		"ls_db_covid_cluster_accessToken": {
+			"value": ""
+		},
+		"ls_sql_coviddb_connectionString": {
+			"value": ""
+		},
+		"covid_death_data_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"linked_dl_covidreport_properties_typeProperties_url": {
+			"value": "https://covidreportingdlsj.dfs.core.windows.net/"
+		},
+		"ls_db_covid_cluster_properties_typeProperties_existingClusterId": {
+			"value": "0723-124524-wrttxamj"
+		}
+	}
+}
