@@ -1,0 +1,17 @@
+{
+	"name": "t1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2023-07-28T23:48:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
